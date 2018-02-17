@@ -8,93 +8,60 @@
     <p>Hi there buckeroos</p>
     <p>This and only this is where I will send you my <a href="http://www.messages.com">messages</a></p>
 
+    <div>
+        {% for memory in memories %}
+            <div>
+                <p>published: {{ memory.published_date }}</p>
+                <h1><a href="">{{ memory.title }}</a></h1>
+                <p>{{ memory.story|linebreaksbr }}</p>
+                <br><br>
+            </div>
+        {% endfor %}
+    </div>
 
 <h1 style="text-align:center;">The 7 Conternants</h1>
-
 <h4 style="text-align:center;">&#10148; Click on the boops in the image to go to a conternant section</h4>
-
 <map name="continents_map">
-
  <area shape="circle" coords="70,70,10" href="#north_america">
-
  <area shape="circle" coords="133,185,10" href="#south_america">
-
  <area shape="circle" coords="270,137,10" href="#africa">
-
  <area shape="circle" coords="292,44,10" href="#europe">
-
  <area shape="circle" coords="469,201,10" href="#australia">
-
  <area shape="circle" coords="374,65,10" href="#asia">
-
  <area shape="circle" coords="340,267,10" href="#antartica">
-
 </map>
-
 <figure style="text-align:center;">
-
     <img usemap="#continents_map" src=https://bit.ly/2bgFrvL width="600px" />
-
     <figcaption>World Map</figcaption>
-
 </figure>
-
 <div>
-
     <h3 id="africa">Africa</h3>
-
     <p>Conternants in Africa:<br>Africa</p>
-
 </div>
-
 <div>
-
     <h3 id="asia">Asia</h3>
-
     <p>Conternants in Asia:<br>Asia</p>
-
 </div>
-
 <div>
-
     <h3 id="europe">Europe</h3>
-
     <p>Conternants in Europe:<br>Europe</p>
-
 </div>
-
 <div>
-
     <h3 id="south_america">South America</h3>
-
     <p>Conternants in South America:<br>South America</p>
-
 </div>
-
 <div>
-
     <h3 id="north_america">North America</h3>
-
     <p>Conternants in North America:<br>North America</p>
-
 </div>
-
 <div>
-
     <h3 id="antartica">Antarctica</h3>
-
     <p>Conternants in Antartica:<br>Antarctica</p>
-
 </div>
-
 <div>
-
     <h3 id="australia">Australia</h3>
-
     <p>Conternants in Australia:<br>None at this time</p>
-
 </div>
-
 
 </body>
 </html>

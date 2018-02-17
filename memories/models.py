@@ -10,7 +10,7 @@ class Memory(models.Model):
     story = models.TextField(max_length=7000)
     story_is_true = models.BooleanField(default=False)
     whos_fault  = models.CharField(max_length=200, default='Ian Townsend')
-    memory_date = models.DateTimeField()
+    memory_date = models.DateTimeField(blank=True, null=True)
     created_date = models.DateTimeField(auto_now_add=True)
     published_date = models.DateTimeField(blank=True, null=True)
 
