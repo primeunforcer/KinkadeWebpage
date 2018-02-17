@@ -63,13 +63,9 @@
       <file leaf-file-name="memory_list.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/memories/templates/memories/memory_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="31" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+            <state relative-caret-position="730">
+              <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="77" selection-end-column="57" />
               <folding>
-                <element signature="e#778#784#0" expanded="true" />
-                <element signature="e#784#790#0" expanded="true" />
-                <element signature="e#1322#1328#0" expanded="true" />
-                <element signature="e#1328#1334#0" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h4#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#figure#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -306,13 +302,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/memories/templates/memories/memory_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="31" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        <state relative-caret-position="730">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="77" selection-end-column="57" />
           <folding>
-            <element signature="e#778#784#0" expanded="true" />
-            <element signature="e#784#790#0" expanded="true" />
-            <element signature="e#1322#1328#0" expanded="true" />
-            <element signature="e#1328#1334#0" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h4#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#figure#0;n#body#0;n#html#0;n#!!top" expanded="true" />
