@@ -11,8 +11,11 @@
     <div>
         {% for memory in memories %}
             <div>
-                <p>published: {{ memory.published_date }}</p>
                 <h1><a href="">{{ memory.title }}</a></h1>
+                <p>published: {{ memory.published_date }}</p>
+                <p>attendees: {{ memory.attendees }}</p>
+                <p>Story is True: {{ memory.story_is_true }}</p>
+                <p>At Fault: {{memory.whos_fault }}</p>
                 <p>{{ memory.story|linebreaksbr }}</p>
                 <br><br>
             </div>
